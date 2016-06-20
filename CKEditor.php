@@ -1,10 +1,10 @@
 <?php
 
-namespace edofre\ckeditor;
+namespace unimodern\ckeditor;
 
 /**
  * Class CKEditor
- * @package edofre\ckeditor
+ * @package unimodern\ckeditor
  */
 class CKEditor extends \yii\widgets\InputWidget
 {
