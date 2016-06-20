@@ -1,10 +1,10 @@
 <?php
 
-namespace edofre\ckeditor;
+namespace unimodern\ckeditor;
 
 /**
  * Class CoreAsset
- * @package edofre\fullcalendar
+ * @package unimodern\fullcalendar
  */
 class CoreAsset extends \yii\web\AssetBundle
 {
