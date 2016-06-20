@@ -1,11 +1,11 @@
 {
-  "name": "edofre/yii2-ckeditor",
+  "name": "unimodern/yii2-ckeditor",
   "description": "Yii2 widget for ckeditor",
   "require": {
     "php": ">=5.5.0",
     "yiisoft/yii2": "*",
     "yiisoft/yii2-jui": "*",
-    "ckeditor/ckeditor": "dev-full/stable"
+    "ckeditor/ckeditor": "stable"
   },
   "keywords": [
     "editor",
@@ -13,12 +13,12 @@
     "widget",
     "ckeditor"
   ],
-  "homepage": "https://github.com/edofre/yii2-ckeditor",
+  "homepage": "https://github.com/unimodern/yii2-ckeditor",
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "source": "https://github.com/edofre/yii2-ckeditor",
-    "issues": "https://github.com/edofre/yii2-ckeditor/issues"
+    "source": "https://github.com/unimodern/yii2-ckeditor",
+    "issues": "https://github.com/unimodern/yii2-ckeditor/issues"
   },
   "authors": [
     {
@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "edofre\\ckeditor\\": ""
+      "unimodern\\ckeditor\\": ""
     }
   },
   "extra": {
