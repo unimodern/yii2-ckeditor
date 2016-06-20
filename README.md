@@ -1,5 +1,7 @@
 # Yii2 ckeditor widget
 
+## Disclaimer
+This is forked from Edofre/yii2-ckeditor to release as stable
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
@@ -7,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require edofre/yii2-ckeditor "@dev"
+$ php composer.phar require unimodern/yii2-ckeditor "@dev"
 ```
 
 or add
 
 ```
-"edofre/yii2-ckeditor": "@dev"
+"unimodern/yii2-ckeditor": "@dev"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -23,7 +25,7 @@ to the ```require``` section of your `composer.json` file.
 ### ActiveForm usage with a model
 
 ```php
-<?= $form->field($model, 'body')->widget(\edofre\ckeditor\CKEditor::className(), [
+<?= $form->field($model, 'body')->widget(\unimodern\ckeditor\CKEditor::className(), [
     'editorOptions' => [
         'language' => 'nl',
     ],
@@ -33,7 +35,7 @@ to the ```require``` section of your `composer.json` file.
 ### Usage without model
 
 ```php
-<?= \edofre\ckeditor\CKEditor::widget([
+<?= \unimodern\ckeditor\CKEditor::widget([
     'name'          => 'content',
     'editorOptions' => [
         'height'      => '400px',
